@@ -32,6 +32,42 @@ main {
   background-color: #eaeaea;
 }
 
+@media screen and (max-width: 768px) {
+  nav {
+    position: fixed;
+    width: 100%;
+  }
+
+  nav h1 {
+    width: 40%;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  .filterTask {
+    width: 100% !important;
+    height: auto !important;
+    padding-top: 1rem;
+  }
+
+  .allTask {
+    width: 100% !important;
+    height: auto !important;
+    padding-top: 1rem;
+    order: 3;
+  }
+
+  .newTask {
+    width: 100% !important;
+    height: auto !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    order: 2;
+  }
+}
+
 @import "./styles/filterTask.scss";
 @import "./styles/newTask.scss";
 @import "./styles/allTask.scss";
