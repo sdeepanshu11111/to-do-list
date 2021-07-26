@@ -35,7 +35,7 @@ const Todo = ({ time, text, setToDos, toDos, id, e }) => {
       />
       <div className={`info ${e.completed ? " completedClass" : ""} `}>
         <h3>{text}</h3>
-        <p>{time.slice(0, 15)}</p>
+        <p>{time.slice(0, 21)}</p>
       </div>
 
       <FontAwesomeIcon
