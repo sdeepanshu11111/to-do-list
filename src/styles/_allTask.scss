@@ -12,12 +12,17 @@
   .todo-item {
     display: flex;
     align-items: center;
-    background-color: blueviolet;
+    background-color: rgb(171, 95, 241);
     padding-top: 2rem;
+    color: white;
     padding: 10px 1rem;
     border-radius: 5px;
     margin: auto;
     margin-bottom: 1rem;
+
+    h3 {
+      padding-bottom: 0.3rem;
+    }
 
     svg {
       cursor: pointer;
