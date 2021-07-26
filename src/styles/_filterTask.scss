@@ -1,0 +1,35 @@
+.filterTask {
+  width: 20%;
+  background-color: #f4f4f4;
+  height: 92vh;
+
+  .filter {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    padding-left: 1rem;
+
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 5px;
+    height: 50px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+  }
+
+  svg {
+    margin-left: 0.4rem;
+    pointer-events: none;
+    cursor: none;
+  }
+
+  h2 {
+    font-size: 1rem;
+    padding-left: 0.8rem;
+    font-weight: 400;
+    color: black;
+    width: 100%;
+    padding: 1rem;
+  }
+}

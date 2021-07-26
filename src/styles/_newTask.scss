@@ -1,0 +1,25 @@
+.newTask {
+  width: 40%;
+  height: 92vh;
+  padding-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  h1 {
+    padding-bottom: 10px;
+  }
+
+  hr {
+    width: 100%;
+    margin: auto;
+    border: 1px solid rgb(211, 211, 211);
+  }
+
+  input {
+    border: none;
+    outline: none;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    display: block;
+  }
+}

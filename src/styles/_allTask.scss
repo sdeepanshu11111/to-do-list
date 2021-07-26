@@ -1,0 +1,49 @@
+.allTask {
+  width: 40%;
+  background-color: #eaeaea;
+  height: 92vh;
+  padding: 2rem;
+  overflow: auto;
+
+  h2 {
+    padding-bottom: 1rem;
+  }
+
+  .todo-item {
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    padding-top: 2rem;
+    padding: 10px 1rem;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 1rem;
+
+    svg {
+      cursor: pointer;
+    }
+
+    .info {
+      width: 90%;
+      padding-left: 1rem;
+    }
+  }
+}
+
+.completedTask {
+  width: 40%;
+  background-color: #eaeaea;
+  height: 92vh;
+}
+
+.pendingTask {
+  width: 40%;
+  background-color: #eaeaea;
+  height: 92vh;
+}
+
+// utility
+.completedClass {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
