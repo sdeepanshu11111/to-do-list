@@ -8,7 +8,6 @@ import {
 
 const Todo = ({ time, text, setToDos, toDos, id, e }) => {
   const deleteHandler = () => {
-    console.log(id);
     setToDos(toDos.filter((el) => el.id !== id));
   };
 
