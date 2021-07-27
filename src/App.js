@@ -16,8 +16,6 @@ function App() {
   const [status, setStatus] = useState("All tasks");
   const [filterTodos, setFilterTodos] = useState([]);
 
-  console.log(status);
-
   // only for ones
 
   useEffect(() => {
@@ -28,6 +26,7 @@ function App() {
     filterHandler();
     saveToLocal();
   }, [toDos, status]);
+
   // functions
   const filterHandler = () => {
     switch (status) {
@@ -37,8 +36,6 @@ function App() {
             return e.completed === true;
           })
         );
-
-        console.log(filterTodos, "ff");
 
         break;
       case "pending":

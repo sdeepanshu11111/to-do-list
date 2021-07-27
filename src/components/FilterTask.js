@@ -7,7 +7,6 @@ const FilterTask = ({ setStatus, status }) => {
     setStatus(e.target.innerText);
   };
 
-  console.log(status);
   return (
     <div className="filterTask">
       <Link

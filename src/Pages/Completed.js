@@ -7,7 +7,6 @@ const CompletedTask = ({ toDos, setToDos, filterTodos }) => {
       <div className="taskContainer">
         <div className="task">
           {filterTodos.map((e) => {
-            console.log(filterTodos);
             return (
               <Todo
                 id={e.id}
